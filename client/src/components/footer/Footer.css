@@ -1,0 +1,17 @@
+footer {
+    position: relative;
+    background-color: rgb(233, 233, 233);
+    padding: 1em;
+    text-align: center;
+
+}
+
+a {
+    color: rgb(255, 187, 187);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(211, 148, 148);
+    cursor: pointer;
+}

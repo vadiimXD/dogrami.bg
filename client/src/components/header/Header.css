@@ -1,0 +1,33 @@
+nav {
+    padding: 0;
+    margin: 0;
+    max-width: inherit;
+    position: fixed;
+    background-color: rgb(233, 233, 233);
+    top: 0;
+    width: 100%;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+li {
+    text-decoration: none;
+    color: red;
+    padding: 1em;
+    list-style: none;
+    margin: 0.5em;
+    min-width: 2em;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgb(209, 24, 24);
+    transform: translateY(-10px);
+
+}
