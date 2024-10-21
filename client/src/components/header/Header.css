@@ -1,11 +1,11 @@
 nav {
-    padding: 0;
     margin: 0;
-    max-width: inherit;
     position: fixed;
     background-color: rgb(233, 233, 233);
     top: 0;
     width: 100%;
+    padding: 0;
+z-index: 100;
 }
 
 nav>ul {
@@ -25,9 +25,21 @@ li {
     transition: transform 0.3s;
 }
 
+
 li:hover {
     cursor: pointer;
     color: rgb(209, 24, 24);
     transform: translateY(-10px);
 
+}
+
+#btn {
+    text-decoration: none;
+}
+
+
+@media (max-width: 550px) {
+li{
+    padding: 0em;
+}
 }
